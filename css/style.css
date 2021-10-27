@@ -1,2 +1,52 @@
 /* Journey to the Center of the Earth Practicum */
 /* Jennifer Christilles */
+*{
+    width: 375px;
+}
+
+header {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #886644;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow:Inset 15px 10px 30px -15px gray;
+    height: 150px;
+    padding: 10px;
+}
+
+nav{
+    border: 2px solid #886644;
+    box-shadow:Inset 15px 10px 30px -15px gray;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+main {
+    border: 2px solid #886644;
+    box-shadow:Inset 15px 10px 30px -15px gray;
+    padding-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+aside {
+    border: 2px solid #886644;
+    border-spacing: 5px;
+    box-shadow:Inset 15px 10px 30px -15px gray;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid #886644;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow:Inset 15px 10px 30px -15px gray;
+    height: 100px;
+    padding: 10px;
+    margin-top: 5px;
+}
