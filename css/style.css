@@ -1,42 +1,71 @@
 /* Journey to the Center of the Earth Practicum */
 /* Jennifer Christilles */
 *{
-    width: 375px;
+    width: 385px;
 }
 
 header {
     font-size: 22px;
+    color: white;
+    font: large bold ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 6px black;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     border: 2px solid #886644;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    box-shadow:Inset 15px 10px 30px -15px gray;
+    box-shadow:Inset 15px 10px 100px -15px black;
     height: 150px;
     padding: 10px;
+    padding-left: 10px;
+    background-image: url(../img/cave.jpg);
+    background-position: center;
+    background-size: 475px 500px;
 }
+
 
 nav{
     border: 2px solid #886644;
-    box-shadow:Inset 15px 10px 30px -15px gray;
+    box-shadow:Inset 15px 10px 40px -15px black;
     padding-right: 20px;
     margin-top: 5px;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+/* specifically for the navigation/list */
+/* Honestly couldn't figure out the nav list */
+nav ul li {
+    height: 10px;
+    padding: 4px;
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    border-left: double;
+    border-color: black;
+}
+
+nav ul li:first-child {
+    padding-left: 0px;
+    border: none;
 }
 
 main {
     border: 2px solid #886644;
-    box-shadow:Inset 15px 10px 30px -15px gray;
+    box-shadow:Inset 15px 10px 40px -15px black;
     padding-right: 20px;
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 19px;
+    background-color: rgba(255, 255, 255, .75);
 }
 
 aside {
     border: 2px solid #886644;
-    border-spacing: 5px;
-    box-shadow:Inset 15px 10px 30px -15px gray;
+    border-spacing: 3px;
+    box-shadow:Inset 15px 10px 40px -15px black;
     padding-right: 20px;
     margin-top: 5px;
+    background-color: rgba(255, 255, 255, .75);
 }
 
 footer {
@@ -45,8 +74,78 @@ footer {
     border: 2px solid #886644;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    box-shadow:Inset 15px 10px 30px -15px gray;
-    height: 100px;
+    box-shadow:Inset 15px 10px 40px -15px black;
+    height: 90px;
     padding: 10px;
     margin-top: 5px;
+    background-color: rgba(255, 255, 255, .75);
 }
+
+body {
+    background-image: linear-gradient(#765729, #000000);
+}
+/* this is to make different languages in italics */
+:lang(fr) 	{
+    font-style: italic;
+    }
+:lang(it) 	{
+    font-style: italic;
+    }
+:lang(is) 	{
+    font-style: italic;
+    }
+
+/* this is to make all character classes bold */
+.character {
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 1px dashed black;
+    padding-left: 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: #A52A2A;
+}
+
+#cover {
+    float:left;
+    height: 340px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.submission {
+    background-color: white;
+    width: 350px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    padding: 1rem;
+}
+
+.opinion {
+    font-size: 19px;
+    margin-left: 0;
+    padding:1rem;
+    line-break: strict;
+}
+
+.signature {
+    padding: 1% 30%;
+    font-style: italic;
+}
+
+/*couldn't figure out why text in reviews were not able to be centered */
+
