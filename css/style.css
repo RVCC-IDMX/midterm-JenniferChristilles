@@ -1,8 +1,5 @@
 /* Journey to the Center of the Earth Practicum */
 /* Jennifer Christilles */
-*{
-    width: 385px;
-}
 
 header {
     font-size: 22px;
@@ -43,6 +40,8 @@ nav ul li {
     display: inline;
     border-left: double;
     border-color: black;
+    margin-right: 7px;
+    word-spacing: 5px;
 }
 
 nav ul li:first-child {
@@ -125,7 +124,6 @@ a:hover, a:active {
 
 .submission {
     background-color: white;
-    width: 350px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -143,9 +141,20 @@ a:hover, a:active {
 }
 
 .signature {
-    padding: 1% 30%;
     font-style: italic;
+    text-align: right;
 }
 
 /*couldn't figure out why text in reviews were not able to be centered */
 
+@media screen and (min-width: 1em){
+    .submission{
+        grid-template-columns: 100px 100px 100px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+
+@media screen and (min-width: 1024){
+    
+}
